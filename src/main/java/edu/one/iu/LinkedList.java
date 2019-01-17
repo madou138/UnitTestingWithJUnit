@@ -3,12 +3,13 @@ import java.util.*;
 
 public class LinkedList<T> implements ILinkedList<T>
 {
+    private int size = 0;
     ILinkedList<T> next;
     T element;
 
     public int size()
     {
-        return 0;
+        return size;
     }
 
     /**
